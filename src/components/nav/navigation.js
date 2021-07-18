@@ -19,7 +19,7 @@ const Navbar = () => {
 
       <div className="links-wrapper">
         <NavLink to="/">
-          Portada
+          Inicio
         </NavLink>
 
         <NavLink to="/mesa">
