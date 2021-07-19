@@ -13,7 +13,6 @@ const Navbar = () => {
               Nuestra Boda
           </div>
         </NavLink>
-
         <Countdownlist/>
       </div>
 

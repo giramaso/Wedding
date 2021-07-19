@@ -8,9 +8,13 @@
 
     .nav{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-around;
         margin: 0px 5px;
-
+        .timer{
+            margin-top: 10px;
+            font-size: 2rem;
+        }
         a{
             text-decoration: none;
         }
@@ -20,12 +24,13 @@
             font-size: 3rem;
             background-color: #88a185;
             font-family: 'Bree Serif', serif;
-            padding: 25px 30px;
+            padding: 20px 30px;
+            text-align: center;
         }
         
     }
     .links-wrapper{
-       // width: 85%;
+        //width: 85%;
         margin-top: 3vh;
         display: flex;
         justify-content: space-around;
@@ -33,10 +38,11 @@
         a{
             text-decoration: none;
             color: #88A185;
-            font-size: 20px;
+            font-size: .9rem;
             font-family: 'Bree Serif', serif;
             transition: 0.5s;
-            padding: 2px 50px;
+            //padding: 2px 50px;
+            
 
 
             &:hover{

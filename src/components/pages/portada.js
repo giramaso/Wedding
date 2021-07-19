@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
 import { withRouter } from "react-router";
+import Usimg from "../../../static/assets/images/Us.jpg"
 
 
 const Portada = () => {
   return (
         <div className="portada">
+
+          <div
+            className="imagen"
+            style={{
+              backgroundImage: `url(${Usimg})`
+            }}
+          />
+
           <p>
             ¡Bienvenidos a la página de nuestra boda!
             <br/>
