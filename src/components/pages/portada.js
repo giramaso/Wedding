@@ -86,6 +86,15 @@ const Portada = () => {
           </a>
         </div>
 
+        <div className="info">
+          <h1>
+            Una ultima cosa
+          </h1>
+          <p>
+            Debido a la situacion actual mundial, tenemos un numero limitado de asitensitens, por favor haznos llegar tu confirmacion.
+          </p>
+        </div>
+
 
     </div>
     );
