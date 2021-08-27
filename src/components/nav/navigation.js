@@ -15,7 +15,7 @@ const Navbar = () => {
         </NavLink>
         <Countdownlist/>
       </div>
-
+{/*
       <div className="links-wrapper">
         <NavLink to="/">
           Inicio
@@ -32,8 +32,8 @@ const Navbar = () => {
         <NavLink to="/mapa">
           Mapa
         </NavLink>
-          
-      </div>
+
+      </div>*/}
     </div>
   );
 }

@@ -38,11 +38,11 @@ class Mapa extends Component{
   render(){
     return(
     <div>
-      <Map
+      <Map className= "mapa"
         googleMapURL={mapURL}
         loadingElement={<div>loading </div>}
-        containerElement={<div style={{ height: '400px' }} />}
-        mapElement={<div style={{ height: '100%' }} />}
+        containerElement={<div style={{ height: '400px', margin: '0px 30px' }} />}
+        mapElement={<div style={{ height: '100%', width: '100%' }} />}
 
       />
     </div>
