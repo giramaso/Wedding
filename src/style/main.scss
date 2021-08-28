@@ -2,6 +2,7 @@
 @import url(./timer.scss);
 @import url(./portada.scss);
 @import url(./mapa.scss);
+@import url(./bac.scss);
 
 html {
     font-size: 62.5%; // 1rem is 10px
@@ -12,7 +13,7 @@ html {
 body {
    // overflow-x: hidden;
     font-weight: normal;
-
+    font-family: 'IBM Plex Serif', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
