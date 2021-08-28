@@ -52,13 +52,13 @@ const Portada = () => {
           Recepción
         </h1>
         <p>
-          La recepción iniciara a las <b>7:30 P.M.</b>
+          La recepción iniciara a las: <br/><b>7:30 P.M.</b><br/>
           <br/>
-          La ceremonia por el civil dará inicio a las <b>8:00 P.M.</b>
+          La ceremonia por el civil dará inicio a las: <br/><b>8:00 P.M.</b><br/>
           <br/>
-          La fiesta continuara hasta la <b>1:30 A.M.</b>
+          La fiesta continuara hasta las: <br/><b>1:30 A.M.</b><br/>
           <br/>
-          El jardín deberá de ser desalojado por completo a las <b>2:30 A.M.</b>
+          El jardín deberá ser desalojado por completo a las: <br/><b>2:30 A.M.</b><br/>
         </p>
       </div>
 
