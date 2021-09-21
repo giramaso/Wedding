@@ -44,7 +44,9 @@ const Portada = () => {
             <b>Colonia:</b> Iztapalapa
           </p>
         </div>
-        <Mapa/>
+        <div className="that-map">
+          <Mapa/>
+        </div>
       </div>
 
       <div className="recepcion">
@@ -55,10 +57,6 @@ const Portada = () => {
           La recepción iniciara a las: <br/><b>7:30 P.M.</b><br/>
           <br/>
           La ceremonia por el civil dará inicio a las: <br/><b>8:00 P.M.</b><br/>
-          <br/>
-          La fiesta continuara hasta las: <br/><b>1:30 A.M.</b><br/>
-          <br/>
-          El jardín deberá ser desalojado por completo a las: <br/><b>2:30 A.M.</b><br/>
         </p>
       </div>
 
@@ -67,7 +65,7 @@ const Portada = () => {
           Vestimenta
         </h1>
         <p>
-          El código de vestimenta será:...
+          El código de vestimenta será formal/casual 
         </p>
       </div>
 

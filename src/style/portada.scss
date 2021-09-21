@@ -38,21 +38,25 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 40px;
-        width: 220px;
+        height: 43px;
+        width: 250px;
         background-color: #88a185;
         margin: 7px;
+        border: solid 2px #5B7359;
         border-radius: 15px;
+        box-shadow: 4px 5px 11px 3px #bcbcbc ;
       
         &:hover{
           background-color: #657F62;
           color: lightgray;
+          box-shadow: 4px 5px 11px 3px #262b24;
         }
       }
       a{
         text-decoration: none;
         color: #f5f5f5;
-        font-weight: 700;
+        font-weight: 900;
+        font-size: 15px
       }
     } 
   }

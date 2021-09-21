@@ -11,9 +11,14 @@
         flex-direction: column;
         justify-content: space-around;
         margin: 0px 5px;
+        border-radius: 25px;
+
         .timer{
             margin-top: 10px;
             font-size: 4em;
+            font-size: 3.5em;
+            border-radius: 8px;
+
         }
         a{
             text-decoration: none;
@@ -21,11 +26,14 @@
         
         .text{
             color: #3e4c3c;
-            font-size: 3rem;
+            font-size: 4rem;
             background-color: #88a185;
             font-family: 'Bree Serif', serif;
             padding: 20px 30px;
             text-align: center;
+            text-shadow:  5px 3px 4px #fff;
+            border-radius: 8px;
+
         }
         
     }
