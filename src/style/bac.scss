@@ -1,3 +1,63 @@
 .banco{
-    background-color: lightgreen;
+    background: repeating-linear-gradient(#fff,#dba9a9);
+    h1{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .novios{
+       display: grid;
+       grid-template-columns: 1fr;
+       justify-content: space-between;
+
+       .gian{
+           align-items: center;
+           text-align: center;
+           padding-bottom: 5vh;
+           
+           .datos{
+               .name{
+                   h1{
+                    font-size: 4.3rem;
+                   }
+               }
+               .bnco {
+                  img{
+                      height: 6rem;
+                  }
+               }
+               .cuenta{
+                   p{
+                        font-size: 1.5rem;
+                   }
+               }
+           }
+       }
+    }
+    .spacer{
+        border: 1px solid #c36f6f;
+    }
+    .sabi{
+           
+        align-items: center;
+        text-align: center;
+        padding-bottom: 7vh;
+        
+        .datos{
+            .name{
+                h1{
+                 font-size: 4.3rem;
+                }
+            }
+            .bnco {
+               img{
+                   height: 6rem;
+               }
+            }
+            .cuenta{
+                p{
+                     font-size: 1.5rem;
+                }
+            }
+        }
+    }
 }

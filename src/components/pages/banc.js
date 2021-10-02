@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import Bnl from "../../../static/assets/images/bnl.png"
+import Stl from "../../../static/assets/images/st.png"
 
 export default class Banc extends Component {
   render() {
     return (
         <div className="banco">
-            <div>
+            <h1>
               Aqui encontraras datos para poder hacer depositos bancarios a alguno de los novios
-            </div>
+            </h1>
             <div className="novios">
                 <div className="gian">
                     <div className="datos">
@@ -16,21 +18,19 @@ export default class Banc extends Component {
                             </h1>
                         </div>
                         <div className="bnco">
-                            <p>
-                                Banamex
-                            </p>
+                            <img src={Bnl}></img>
                         </div>
                         <div className="cuenta">
                             <p>
                                 <b>Cuenta:</b> 3169132
                             </p>  
                         </div>
-                        <div className="clave">
+                        <div className="cuenta">
                             <p>
                                 <b>Cuenta CLABE:</b> 002180701631691322
                             </p>
                         </div>
-                        <div className="sucursal">
+                        <div className="cuenta">
                             <p>
                                 <b>Sucursal:</b> 7016
                             </p>
@@ -38,31 +38,26 @@ export default class Banc extends Component {
                     </div>
                 </div>
 
+                <div className="spacer"/>
+                
                 <div className ="sabi">
                     <div className="datos">
                         <div className="name">
                             <h1>
-                                Maria Lira 
+                                Sabina Lira 
                             </h1> 
                         </div>
                         <div className="bnco">
-                            <p>
-                                Banco
-                            </p>                          
+                            <img src={Stl}></img>                         
                         </div>
                         <div className="cuenta">
                             <p>
-                                <b>Cuenta:</b>###
+                                <b>Cuenta: </b> 567 587 75 254
                             </p>                         
                         </div>
-                        <div className="clave">
+                        <div className="cuenta">
                             <p>
-                                <b>Cuenta CLABE:</b>###
-                            </p>
-                        </div>
-                        <div className="sucursal">
-                            <p>
-                                <b>Sucursal:</b> ###
+                                <b>Cuenta CLABE: </b> 0141 8056 75 87 75 25 47 
                             </p>
                         </div>
                     </div>
