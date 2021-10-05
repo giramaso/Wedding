@@ -76,6 +76,8 @@ const Portada = () => {
           </h1>
           <p>
             Lo más importante es tu presencia, pero si deseas hacernos un regalo aqui tienes algunas sugerencias
+            <br/>
+            <b className ="small">* Los elemtentos listados en las mesas de regalos son solo opciones o ideas para regalos, no es forzoso comseguir los articulos exactos, si consigues algo similiar, a un menor precio se aceptara de igual forma, y con mucho cariño</b>
           </p>
         </div>
 
@@ -97,7 +99,7 @@ const Portada = () => {
           Una última cosa
         </h1>
         <p>
-          Debido a la situación actual mundial, tenemos un numero limitado de asistentes, por favor haznos llegar tu confirmación.
+          Debido a la situación actual mundial, tenemos un numero limitado de asistentes, por favor haznos llegar tu <b>confirmación</b>.
         </p>
       </div>
 

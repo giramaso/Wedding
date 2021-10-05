@@ -14,7 +14,7 @@ export default class Banc extends Component {
                     <div className="datos">
                         <div className="name">
                             <h1>
-                                Giancarlo Marquez 
+                                Giancarlo <br/> Marquez 
                             </h1>
                         </div>
                         <div className="bnco">
@@ -27,7 +27,7 @@ export default class Banc extends Component {
                         </div>
                         <div className="cuenta">
                             <p>
-                                <b>Cuenta CLABE:</b> 002180701631691322
+                                <b>Cuenta CLABE:</b> 0021 8070 1631 691 322
                             </p>
                         </div>
                         <div className="cuenta">
@@ -44,7 +44,7 @@ export default class Banc extends Component {
                     <div className="datos">
                         <div className="name">
                             <h1>
-                                Sabina Lira 
+                                Sabina <br/> Lira 
                             </h1> 
                         </div>
                         <div className="bnco">
@@ -52,12 +52,12 @@ export default class Banc extends Component {
                         </div>
                         <div className="cuenta">
                             <p>
-                                <b>Cuenta: </b> 567 587 75 254
+                                <b>Cuenta: </b> 567 587 752 54
                             </p>                         
                         </div>
                         <div className="cuenta">
                             <p>
-                                <b>Cuenta CLABE: </b> 0141 8056 75 87 75 25 47 
+                                <b>Cuenta CLABE: </b> 0141 8056 7587 7525 47 
                             </p>
                         </div>
                     </div>
