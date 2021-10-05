@@ -77,7 +77,8 @@ const Portada = () => {
           <p>
             Lo más importante es tu presencia, pero si deseas hacernos un regalo aqui tienes algunas sugerencias
             <br/>
-            <b className ="small">* Los elemtentos listados en las mesas de regalos son solo opciones o ideas para regalos, no es forzoso comseguir los articulos exactos, si consigues algo similiar, a un menor precio se aceptara de igual forma, y con mucho cariño</b>
+            <b className ="small">* Los regalos seleccionados en cada una de las mesas son sugerencias de lo que nos será útil.
+La adquisición de estos artículos puedes realizarla en algún otro sitio, no específicamente en estos lugares.</b>
           </p>
         </div>
 
