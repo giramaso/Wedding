@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter } from "react-router";
-import Usimg from "../../../static/assets/images/11.jpg"
+import Usimg from "../../../static/assets/images/11.png"
 import Mapa from './mapa';
 
 const Portada = () => {
