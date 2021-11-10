@@ -34,7 +34,7 @@ const Portada = () => {
             La ceremonia  
           </h1>
           <p>
-            Tanto la ceremonia civil como la fiesta se llevara acabo el <b> 3 de Diciembre de 2021</b> en el <b>Jardín de fiestas Fénix</b> el cual esta ubicado en:
+            Tanto la ceremonia civil como la fiesta se llevara acabo el <b> 3 de Diciembre de 2021</b> en el <b><a href="https://www.google.com/maps/place/Jardin+de+fiestas+F%C3%A9nix/@19.383258,-99.069789,18z/data=!4m5!3m4!1s0x0:0x7194dede93a655b8!8m2!3d19.3832359!4d-99.0697689?hl=en-US" target="_blank">Jardín de fiestas Fénix</a></b> el cual esta ubicado en:
           </p>
           <p>
             <b>Calle:</b> 10 de Agosto de 1860

@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react"
 function Countdownlist() {
     const [time, setTime] = useState ("");
     useEffect (() => {
-        let countDownDate = new Date("Dec 03, 2021 19:00:00").getTime();
+        let countDownDate = new Date("Dec 03, 2021 19:30:00").getTime();
         // update every second
         let x = setInterval(function(){
             // Get todays date
@@ -21,7 +21,7 @@ function Countdownlist() {
 
             if( distance < 0){
                 clearInterval(x);
-                setTime("Que vivan los novios!")
+                setTime("¡Gracias por su compañia!")
             }
 
         }, 1000)

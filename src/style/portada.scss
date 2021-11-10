@@ -18,7 +18,7 @@
       background-size: 100% auto;
       background-repeat: no-repeat;
       height: 80vw;
-      width: 100vw;
+      width: 78vw;
     //  margin: 0vh 2vw;   
   }
   .bienvenida{
@@ -26,6 +26,19 @@
   
     p{
         font-size: 22px;
+    }
+  }
+  .map-container{
+    .map-info{
+      p{
+        b{
+          a{
+            font-size: 1.1em;
+            color: black;
+            
+          }
+        }
+      }
     }
   }
   .mesa-de-regalos{
